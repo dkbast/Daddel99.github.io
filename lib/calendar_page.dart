@@ -83,6 +83,8 @@ class _CalendarPageState extends State<CalendarPage> {
     );
   }
 
+  // hier würde ich schauen ob du den "weekday" nicht einfach als enum oder int verwendest
+  // das macht es auch leichter mit Übersetzungen zu arbeiten
   DateTime _getDateTimeForWeekday(String weekday) {
     DateTime now = DateTime.now();
     int weekdayIndex = DateTime.monday;
@@ -172,6 +174,7 @@ class _CalendarPageState extends State<CalendarPage> {
     await showDialog<String>(
       context: context,
       builder: (BuildContext context) {
+        // Den Dialog könntest du ggf auch in ein Widget auslagern
         return AlertDialog(
           title: Text('Select Category'),
           content: Column(

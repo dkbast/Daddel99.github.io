@@ -10,6 +10,7 @@ import 'package:project_a/page_one.dart';
 import 'package:project_a/page_two.dart';
 import 'package:provider/provider.dart';
 
+// die Datei habe ich mir nicht im Detail angesehen
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();

@@ -14,6 +14,7 @@ void main() {
   );
 }
 
+// diese Klasse nenne ich meist einfach nur App
 class MaterialAppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -23,6 +24,7 @@ class MaterialAppWidget extends StatelessWidget {
   }
 }
 
+// Diese Methode wird gar nicht verwendet:
 Widget _buildCategoryDialog(BuildContext context) {
   return AlertDialog(
     title: Text('Select Category'),

@@ -5,6 +5,7 @@ import 'package:project_a/event_category.dart';
 import 'package:project_a/event_provider.dart';
 import 'package:provider/provider.dart';
 
+// bin ich nicht mehr zu gekommen
 class StopwatchWidget extends StatefulWidget {
   @override
   _StopwatchWidgetState createState() => _StopwatchWidgetState();

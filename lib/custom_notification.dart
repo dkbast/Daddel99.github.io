@@ -1,3 +1,4 @@
+// schau dir mal equatable an - https://pub.dev/packages/equatable
 class CustomNotification {
   final String title;
   final String body;

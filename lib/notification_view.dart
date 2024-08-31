@@ -13,6 +13,7 @@ class NotificationView extends StatelessWidget {
     );
   }
 
+  // am besten in eigenes Widget wie bereits beschrieben
   Widget listView() {
     return ListView.separated(
       itemBuilder: (context, index) {
@@ -25,6 +26,7 @@ class NotificationView extends StatelessWidget {
     );
   }
 
+  // am besten in eigenes Widget wie bereits beschrieben
   Widget listViewItem(int index) {
     return Container(
       margin: EdgeInsets.only(left: 10),
@@ -38,6 +40,7 @@ class NotificationView extends StatelessWidget {
     );
   }
 
+  // am besten in eigenes Widget wie bereits beschrieben
   Widget message(int index) {
     double textSize = 14;
     return Container(
@@ -64,6 +67,7 @@ class NotificationView extends StatelessWidget {
     );
   }
 
+  // am besten in eigenes Widget wie bereits beschrieben
   Widget timeAndDate(int index) {
     return Container(
       margin: EdgeInsets.only(top: 5),

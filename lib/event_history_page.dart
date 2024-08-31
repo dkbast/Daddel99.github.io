@@ -56,6 +56,8 @@ class EventHistoryPage extends StatelessWidget {
     return sortedEvents;
   }
 
+  // Hier würde ich ein Widget draus machen schau dir das Video mal an:
+  // https://www.youtube.com/watch?v=IOyq-eTRhvo&vl=en
   Widget _buildEventTile(Event event, String weekday) {
     return ListTile(
       title: Text(
